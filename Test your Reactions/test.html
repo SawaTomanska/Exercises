@@ -29,6 +29,8 @@
 				setTimeout (makeShapeAppear, (Math.random()*1000));
 			}
 			
+//            Draws color of form
+            
 			function makeColor() {
 				var letters = '0123456789ABCDEF'.split('');
 				var color = '#';
@@ -38,6 +40,8 @@
 				return color;
 			}
 			
+            // Draws shape and position form
+            
 			function makeShapeAppear() {
 				var top = Math.random() * 400;
 				var left = Math.random() * 600;
@@ -57,7 +61,8 @@
 				start = new Date().getTime();
 			}
 			
-			
+			//display form and measures time
+            
 			document.getElementById("shape").onclick = function() {
 				document.getElementById("shape").style.display = "none";
 				var end = new Date().getTime();
