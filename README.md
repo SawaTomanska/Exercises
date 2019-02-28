@@ -1,6 +1,6 @@
 # Exercises
 My javascript exercises
 # Test your Reactions
-This is simple game in Javascript. I draws a position, color, with and heigth circle or square. After this form display on screan. We must click in form. Script measures how much time has passed to click.
+This is simple game in Javascript. It picks random position, color, width and height of circle or square. Then, form appears on screen, and we must click on it. Script measures time of your reaction - from form apperance to proper click.
 # Scope 
-This is simple Web App for count points.
+This is simple point counting Web App.
