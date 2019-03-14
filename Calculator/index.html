@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <script src="js/function.js"></script>  
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="calculator">
+       <div class="row">
+           <div class="screen" id="screen"></div>
+        </div>
+        <div class="keys">
+            <div class="row row1">
+                <div class="key col-xs-3 double-key" data-nr="b">&larr;</div>
+                <div class="key col-xs-3" data-nr="c">C</div>
+                <div class="key col-xs-3 double-key" data-nr="*">*</div>
+            </div>
+            <div class="row">
+                <div class="key col-xs-3" data-nr="7">7</div>
+                <div class="key col-xs-3" data-nr="8">8</div>
+                <div class="key col-xs-3" data-nr="9">9</div>
+                <div class="key col-xs-3 double-key" data-nr="/">/</div>
+            </div>
+            <div class="row">
+                <div class="key col-xs-3" data-nr="4">4</div>
+                <div class="key col-xs-3" data-nr="5">5</div>
+                <div class="key col-xs-3" data-nr="6">6</div>
+                <div class="key col-xs-3 double-key" data-nr="-">-</div>
+            </div>
+            <div class="row">
+                <div class="key col-xs-3" data-nr="1">1</div>
+                <div class="key col-xs-3" data-nr="2">2</div>
+                <div class="key col-xs-3" data-nr="3">3</div>
+                <div class="key col-xs-3 double-key" data-nr="+">+</div>
+            </div>
+            <div class="row other-margin">
+                <div class="key col-xs-3" data-nr="0">0</div>
+                <div class="key col-xs-3" data-nr=",">,</div>
+                <div class="key col-xs-3 big-key" data-nr="=">ENTER</div>
+            </div>
+            <div class="row center">
+                <div class="col-6 big-key" id="more">MORE</div>
+            </div>
+        </div>
+            <div class="row more" id="panel">
+               <div class="key col-xs-3" data-nr="sup2">X&sup2;</div>
+                <div class="key col-xs-3" data-nr="sup3">X&sup3;</div>
+                <div class="key col-xs-3 radic" data-nr="radic2">&sup2;&radic;<span style='text-decoration:overline'>X</span></div>
+                <div class="key col-xs-3 radic" data-nr="log">Log</div>
+                <div class="key col-xs-3 radic" data-nr="sin">Sin</div>
+                <div class="key col-xs-3 radic" data-nr="cos">Cos</div>
+            </div>
+    </div>
+  </div>
+  <!--
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.18.8'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+-->
+</body>
+</html>
