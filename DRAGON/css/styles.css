@@ -1,0 +1,224 @@
+body {
+    background-color: #f5eee4;
+}
+
+body .back {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 50%;
+    border: 10px #016868 solid;
+    background-color: #008b8b;
+    margin: 10% auto;
+    display: block;
+}
+
+body .back .cycle {
+    border-radius: 50%;
+    
+}
+
+body .back .dragon-box {
+    position: absolute;
+    left: 150px;
+}
+
+body .back .dragon-body {
+    background-color: #4f0a8f;
+    position: absolute;
+}
+
+body .back .dragon-head {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+}
+
+body .back .upper-mandible {
+    width: 80px;
+    height: 50px;
+    top: 170px;
+    left: 10px;
+}
+
+body .back .lower-mandible {
+    width: 80px;
+    height: 80px;
+    top: 190px;
+    left: 10px;
+}
+
+body .back .lower-mandible .dragon-jaws {
+    width: 66px;
+    height: 60px;
+    height: 60px;
+    margin-left: 7px;
+    background-color: #eb6c84;
+}
+
+body .back .nose {
+    left: 0px;
+    top: 182px;
+    position: absolute;
+}
+
+body .back .nose .lower-nose {
+    width: 50px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+body .back .nose .nose-right {
+    left: 45px;
+}
+
+body .back .nose .nose-left {
+    left: 6px;
+}
+
+body .back .nose .real-nose{
+    background-color: #242424;
+    position: absolute;
+    top: -5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 25px;
+}
+
+body .back .nose .real-nose-left {
+    left: 25px;
+    transform: rotate(-35deg);
+}
+
+body .back .nose .real-nose-right {
+    left: 55px;
+    transform: rotate(35deg);
+}
+
+body .back .nose .real-nose-center {
+    left: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+body .back .nose .real-nose .hole-nose {
+    background-color: #9b9b91;
+    width: 8px;
+    height: 15px;
+    position: absolute;
+    top: 13px;
+}
+
+body .back .nose .real-nose-left .hole-nose {
+   left: 1px;
+    border-radius: 50% 50% 5% 50%;
+    transform: rotate(13deg);
+}
+body .back .nose .real-nose-right .hole-nose {
+   left: 11px;
+    border-radius: 50% 50% 50% 5%;
+    transform: rotate(-13deg);
+}
+
+body .back .nose .hider-nose {
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    left: 33px;
+}
+
+body .back .nose div:nth-child(1) {
+    background: #390b64;
+    top: -35px;
+}
+
+body .back .nose div:nth-child(2) {
+    background: #4d1185;
+     top: -26px;
+}
+
+body .back .nose div:nth-child(3) {
+    background: #6617af;
+     top: -17px;
+}
+
+body .back .teeths {
+    position: absolute;
+    top: 215px;
+    left: 20px;
+}
+
+body .back .teeths .teeth {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+body .back .teeths .upper-teeth {
+    border-bottom: 30px solid transparent;
+    border-right: 10px solid #ffffff;
+    transform: skewX(-8deg);
+}
+
+body .back .teeths div:nth-child(2) {
+    left: 45px;
+}
+
+body .back .teeths .lower-teeth {
+    border-bottom: 30px solid #ffffff;
+    border-right: 10px solid transparent;
+    top: 15px;
+    transform: skewX(-8deg);
+}
+
+body .back .teeths div:nth-child(3) {
+    left: 16px;
+}
+
+body .back .teeths div:nth-child(4) {
+    left: 40px;
+}
+
+body .back .teeths .dragon-jaws-1-leyer div {
+   position: absolute;
+     border-top: 66px solid #4f0a8f;
+    border-right: 34px solid transparent;
+     transform: skewX(17deg);
+}
+
+body .back .teeths .dragon-jaws-1-leyer div:nth-child(1) {
+    top: 35px;
+    left: 5px;
+}
+
+body .back .teeths .dragon-jaws-1-leyer div:nth-child(2) {
+    top: 35px;
+    left: 40px;
+}
+
+body .back .teeths .dragon-jaws-1-leyer div:nth-child(3) {
+    top: 44px;
+    left: 22px;
+}
+
+body .back .teeths .dragon-jaws-2-leyer div {
+   position: absolute;
+     border-top: 55px solid #6617af;
+    border-right: 24px solid transparent;
+     transform: skewX(17deg);
+}
+
+body .back .teeths .dragon-jaws-2-leyer div:nth-child(1) {
+    top: 35px;
+    left: 5px;
+}
+
+body .back .teeths .dragon-jaws-2-leyer div:nth-child(2) {
+    top: 35px;
+    left: 40px;
+}
+
+body .back .teeths .dragon-jaws-2-leyer div:nth-child(3) {
+    top: 44px;
+    left: 22px;
+}
