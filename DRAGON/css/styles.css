@@ -21,6 +21,7 @@ body .back .cycle {
 body .back .dragon-box {
     position: absolute;
     left: 150px;
+    top:25px;
 }
 
 body .back .dragon-body {
@@ -29,9 +30,10 @@ body .back .dragon-body {
 }
 
 body .back .dragon-head {
-    width: 100px;
-    height: 111px;
-    top: 92px;
+    width: 118px;
+    height: 122px;
+    top: 84px;
+    left: -9px;
 }
 
 body .back .upper-mandible {
@@ -534,7 +536,7 @@ body .back .ears .left-ear div:nth-child(1){
     background-color: #4f0a8f;
     position: absolute;
     top: 106px;
-    left: -16px;
+    left: -28px;
     border-top-right-radius: 188%;
     border-bottom-left-radius: 97%;
     transform: skewX(20deg);
@@ -546,7 +548,7 @@ body .back .ears .left-ear div:nth-child(2){
     background-color: #9b9b91;
     position: absolute;
     top: 118px;
-    left: -13px;
+    left: -25px;
     border-top-right-radius: 92%;
     border-bottom-left-radius: 97%;
     transform: skewX(8deg);
@@ -558,7 +560,7 @@ body .back .ears .right-ear div:nth-child(1) {
     background-color: #4f0a8f;
     position: absolute;
     top: 106px;
-    left: 85px;
+    left: 93px;
     border-top-left-radius: 188%;
     border-bottom-right-radius: 97%;
     transform: skewX(-11deg);
@@ -570,7 +572,7 @@ body .back .ears .right-ear div:nth-child(2){
     background-color: #9b9b91;
     position: absolute;
     top: 122px;
-    left: 100px;
+    left: 108px;
     border-top-left-radius: 92%;
     border-bottom-right-radius: 97%;
     transform: skewX(-6deg);
@@ -614,22 +616,22 @@ body .back .eyes .left-eyebrows div:nth-child(1) {
 
 
 body .back .eyes .left-eyebrows div:nth-child(2) {
-    top: 134px;
+    top: 129px;
     left: 36px;
     border-top-right-radius: 50%;
     transform: skewX(26deg);
 }
 
 body .back .eyes .left-eyebrows div:nth-child(3) {
-    top: 118px;
-    left: 18px;
+    top: 114px;
+    left: 13px;
     border-top-right-radius: 50%;
     transform: skewX(51deg);
 }
 
 body .back .eyes .left-eyebrows div:nth-child(4) {
-    top: 113px;
-    left: 15px;
+    top: 107px;
+    left: 10px;
     border-top-right-radius: 100%;
     transform: skewX(46deg);
 }
@@ -637,8 +639,8 @@ body .back .eyes .left-eyebrows div:nth-child(4) {
 body .back .eyes .left-eyebrows div:nth-child(5) {
     width: 10px;
     height: 32px;
-    top: 110px;
-    left: 26px;
+    top: 107px;
+    left: 24px;
     border-top-right-radius: 100%;
     transform: skewX(35deg);
 }
@@ -685,22 +687,22 @@ body .back .eyes .right-eyebrows div:nth-child(1) {
 
 
 body .back .eyes .right-eyebrows div:nth-child(2) {
-    top: 134px;
+    top: 130px;
     left: 53px;
     border-top-left-radius: 50%;
     transform: skewX(-27deg);
 }
 
 body .back .eyes .right-eyebrows div:nth-child(3) {
-    top: 118px;
-    left: 70px;
+    top: 114px;
+    left: 76px;
     border-top-left-radius: 100%;
     transform: skewX(-51deg);
 }
 
 body .back .eyes .right-eyebrows div:nth-child(4) {
-    top: 113px;
-    left: 72px;
+    top: 109px;
+    left: 78px;
     border-top-left-radius: 148%;
     transform: skewX(-36deg);
 }
@@ -708,10 +710,10 @@ body .back .eyes .right-eyebrows div:nth-child(4) {
 body .back .eyes .right-eyebrows div:nth-child(5) {
     width: 9px;
     height: 32px;
-    top: 110px;
-    left: 70px;
+    top: 106px;
+    left: 72px;
     border-top-left-radius: 114%;
-    transform: skewX(-22deg);
+    transform: skewX(-35deg);
 }
 
 body .back .eyes .right-eyebrows div:nth-child(6) {
@@ -721,4 +723,416 @@ body .back .eyes .right-eyebrows div:nth-child(6) {
     left: 67px;
     border-top-left-radius: 80%;
     transform: skewX(-58deg);
+}
+
+body .back .hair-1 div {
+    background-color: #390b64;
+    height: 22px;
+    width: 68px;
+    position: absolute;
+}
+
+body .back .hair-1 div:nth-child(1) {
+    top:137px;
+    left: -28px;
+    transform: skewX(62deg);
+    border-top-right-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(2) {
+    top:124px;
+    left: -32px;
+    transform: skewX(70deg);
+    border-top-right-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(3) {
+    top:114px;
+    left: -35px;
+    transform: skewX(50deg);
+    border-top-right-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(4) {
+    top:100px;
+    left: -39px;
+    transform: skewX(31deg);
+    border-top-right-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(5) {
+    top:90px;
+    left: -26px;
+    transform: skewX(70deg);
+    border-top-right-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(6) {
+    top:94px;
+    left: -34px;
+    transform: skewY(39deg);
+    border-bottom-left-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(7) {
+    top:92px;
+    left: -39px;
+    transform: skewY(20deg);
+    border-bottom-left-radius: 100%;
+    height: 10px;
+}
+
+body .back .hair-1 div:nth-child(8) {
+    top:82px;
+    left: -34px;
+    transform: skewY(46deg);
+    border-bottom-left-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(9) {
+    top:88px;
+    left: -22px;
+    transform: skewY(51deg);
+    border-bottom-left-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(10) {
+    top:60px;
+    left: -12px;
+    transform: skewY(46deg);
+    border-bottom-left-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(11) {
+    top:29px;
+    left: 19px;
+    transform: skewY(23deg);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    width: 4px;
+    height: 71px;
+}
+
+body .back .hair-1 div:nth-child(12) {
+    top:35px;
+    left: 2px;
+    transform: skewY(52deg);
+    border-top-right-radius: 100%;
+    width: 13px;
+    height: 71px;
+}
+
+body .back .hair-1 div:nth-child(13) {
+    top:76px;
+    left: -18px;
+    transform: skewY(58deg);
+    border-bottom-left-radius: 100%;
+}
+
+body .back .hair-1 div:nth-child(14) {
+    top:79px;
+    left:-12px;
+    transform: skewY(41deg);
+}
+
+body .back .hair-1 div:nth-child(15) {
+    top:84px;
+    left:9px;
+    transform: skewY(58deg);
+}
+
+body .back .hair-1 div:nth-child(16) {
+    top:67px;
+    left:-13px;
+    transform: skewY(-56deg);
+    width: 50px;
+}
+
+body .back .hair-1 div:nth-child(17) {
+    top:38px;
+    left:18px;
+    transform: skewY(-69deg);
+    width: 10px;
+}
+
+body .back .hair-1 div:nth-child(18) {
+    top:47px;
+    left:26px;
+    transform: skewY(-69deg);
+    width: 19px;
+    height: 51px;
+    border-bottom-right-radius: 82%;
+}
+
+body .back .hair-1 div:nth-child(19) {
+    top:68px;
+    left:49px;
+    transform: skewY(-102deg);
+    width: 19px;
+    height: 51px;
+}
+
+body .back .hair-1 div:nth-child(20) {
+    top:54px;
+    left:40px;
+    transform: skewY(-72deg);
+    width: 19px;
+    height: 51px;
+}
+
+body .back .hair-1 div:nth-child(21) {
+    top:48px;
+    left:33px;
+    transform: skewY(-52deg);
+    width: 33px;
+    border-bottom-right-radius: 70%;
+}
+
+body .back .hair-1 div:nth-child(22) {
+    top:45px;
+    left:35px;
+    transform: rotate(56deg);
+    width: 16px;
+}
+
+body .back .hair-1 div:nth-child(23) {
+    top:54px;
+    left:29px;
+    transform: rotate(120deg);
+    width: 80px;
+    height: 14px;
+    border-bottom-left-radius: 97%;
+}
+
+body .back .hair-1 div:nth-child(24) {
+    top:34px;
+    left:58px;
+    transform: skew(164deg);
+    width: 11px;
+    height: 37px;
+    border-top-left-radius: 97%;
+}
+
+body .back .hair-1 div:nth-child(25) {
+    top:55px;
+    left:57px;
+    transform: skew(121deg);
+    width: 21px;
+    height: 44px;
+    border-top-left-radius: 107%;
+}
+
+body .back .hair-1 div:nth-child(26) {
+    top:37px;
+    left:85px;
+    transform: skew(150deg);
+    width: 10px;
+    height: 57px;
+    border-top-left-radius: 107%;
+}
+
+body .back .hair-1 div:nth-child(27) {
+    top:60px;
+    left:60px;
+    transform: skew(133deg);
+    width: 37px;
+    height: 32px;
+}
+
+body .back .hair-1 div:nth-child(28) {
+    top:65px;
+    left:65px;
+    transform: skew(123deg);
+    width: 52px;
+    height: 31px;
+    border-top-left-radius: 107%;
+}
+
+body .back .hair-1 div:nth-child(29) {
+    top:41px;
+    left:48px;
+    transform: skew(-50deg);
+    width: 26px;
+    height: 78px;
+    border-top-left-radius: 110%;
+}
+
+body .back .hair-1 div:nth-child(30) {
+    top:51px;
+    left:73px;
+    transform: rotate(65deg);
+    width: 22px;
+}
+
+body .back .hair-1 div:nth-child(31) {
+    top:53px;
+    left:86px;
+    transform: skew(-54deg);
+    width: 14px;
+    height: 54px;
+    border-top-left-radius: 110%;
+}
+
+body .back .hair-1 div:nth-child(32) {
+    top:74px;
+    left:100px;
+    transform: skew(-67deg, 8deg);
+    width: 22px;
+}
+
+body .back .hair-1 div:nth-child(33) {
+    top:81px;
+    left:89px;
+    transform: skew(-70deg);
+    width: 41px;
+    height: 19px;
+    border-top-left-radius: 110%;
+}
+
+body .back .hair-1 div:nth-child(34) {
+    top:97px;
+    left:110px;
+    transform: skew(-67deg, 8deg);
+    width: 22px;
+}
+
+body .back .hair-1 div:nth-child(35) {
+    top:83px;
+    left:84px;
+    transform: skew(-70deg);
+    width: 45px;
+    height: 34px;
+    border-top-left-radius: 110%;
+}
+
+body .back .hair-1 div:nth-child(36) {
+    top:113px;
+    left:92px;
+    transform: skew(-71deg, 28deg);
+    width: 22px;
+}
+
+body .back .hair-1 div:nth-child(37) {
+    top:113px;
+    left:79px;
+    transform: skew(-113deg);
+    width: 41px;
+    height: 19px;
+    border-top-left-radius: 110%;
+}
+
+body .back .hair-2 div {
+    background-color: #4f0a8f;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    transform: skew(21deg, 32deg);
+}
+
+body .back .hair-2 div:nth-child(1) {
+    top:106px;
+    left:-12px;
+    rotate: -10deg;
+}
+
+body .back .hair-2 div:nth-child(2) {
+    top:93px;
+    left:-9px;
+    rotate: -27deg;
+}
+
+body .back .hair-2 div:nth-child(3) {
+    top:89px;
+    left:0px;
+    rotate: -10deg;
+}
+
+body .back .hair-2 div:nth-child(4) {
+    top:79px;
+    left:2px;
+    rotate: 3deg;
+}
+
+body .back .hair-2 div:nth-child(5) {
+    top:69px;
+    left:8px;
+    rotate: 2deg;
+}
+
+body .back .hair-2 div:nth-child(6) {
+    top:66px;
+    left:13px;
+    rotate: 26deg;
+}
+
+body .back .hair-2 div:nth-child(7) {
+    top:68px;
+    left:22px;
+    rotate: 28deg;
+}
+
+body .back .hair-2 div:nth-child(8) {
+    top:69px;
+    left:34px;
+    rotate: 18deg;
+}
+
+body .back .hair-2 div:nth-child(9) {
+    top:69px;
+    left:8px;
+    rotate: 2deg;
+}
+
+body .back .hair-2 div:nth-child(10) {
+    top:66px;
+    left:38px;
+    rotate: 44deg;
+}
+
+body .back .hair-2 div:nth-child(11) {
+    top:68px;
+    left:50px;
+    rotate: 28deg;
+}
+
+body .back .hair-2 div:nth-child(12) {
+    top:69px;
+    left:55px;
+    rotate: 47deg;
+}
+
+body .back .hair-2 div:nth-child(13) {
+    top:75px;
+    left:61px;
+    rotate: 55deg;
+}
+
+body .back .hair-2 div:nth-child(14) {
+    top:80px;
+    left:68px;
+    rotate: 66deg;
+}
+
+body .back .hair-2 div:nth-child(15) {
+    top:85px;
+    left:80px;
+    rotate: 47deg;
+}
+
+body .back .hair-2 div:nth-child(16) {
+    top:91px;
+    left:86px;
+    rotate: 58deg;
+}
+
+body .back .hair-2 div:nth-child(17) {
+    top:113px;
+    left:96px;
+    rotate: 66deg;
+}
+
+body .back .hair-2 div:nth-child(18) {
+    top:100px;
+    left:92px;
+    rotate: 67deg;
 }
