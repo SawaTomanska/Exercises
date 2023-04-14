@@ -578,25 +578,36 @@ body .back .ears .right-ear div:nth-child(2){
     transform: skewX(-6deg);
 }
 
-body .back .eyes .left-eye div:nth-child(1) {
+body .back .eyes {
+    position: absolute;
+    top: 130px;
+    width: 100px;
+}
+
+body .back .eyes .left-eye, body .back .eyes .right-eye {
+    display: inline-block;
+    margin: 0px 14px;
+}
+
+body .back .eyes .left-eye .eye, body .back .eyes .right-eye .eye{
     width:20px;
     height: 20px;
     background-color: #fff;
-    position: absolute;
-    top: 133px;
-    left: 20px;
+    position: relative;
     border-top-right-radius: 112%;
     border-bottom-left-radius: 97%;
+    overflow: hidden;
 }
 
-body .back .eyes .left-eye div:nth-child(2){
+body .back .eyes .left-eye .ball{
     width:5px;
     height: 5px;
     background-color: #000;
-    position: absolute;
-    top: 143px;
-    left: 25px;
     border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
 }
 
 body .back .eyes .left-eyebrows div, body .back .eyes .right-eyebrows div{
@@ -608,7 +619,7 @@ body .back .eyes .left-eyebrows div, body .back .eyes .right-eyebrows div{
 
 body .back .eyes .left-eyebrows div:nth-child(1) {
     height: 14px;
-    top: 138px;
+    top: 5px;
     left: 36px;
     border-top-right-radius: 40%;
     transform: skewX(59deg);
@@ -616,21 +627,21 @@ body .back .eyes .left-eyebrows div:nth-child(1) {
 
 
 body .back .eyes .left-eyebrows div:nth-child(2) {
-    top: 129px;
+    top: -4px;
     left: 36px;
     border-top-right-radius: 50%;
     transform: skewX(26deg);
 }
 
 body .back .eyes .left-eyebrows div:nth-child(3) {
-    top: 114px;
+    top: -19px;
     left: 13px;
     border-top-right-radius: 50%;
     transform: skewX(51deg);
 }
 
 body .back .eyes .left-eyebrows div:nth-child(4) {
-    top: 107px;
+    top: -24px;
     left: 10px;
     border-top-right-radius: 100%;
     transform: skewX(46deg);
@@ -639,7 +650,7 @@ body .back .eyes .left-eyebrows div:nth-child(4) {
 body .back .eyes .left-eyebrows div:nth-child(5) {
     width: 10px;
     height: 32px;
-    top: 107px;
+    top:-26px;
     left: 24px;
     border-top-right-radius: 100%;
     transform: skewX(35deg);
@@ -648,38 +659,34 @@ body .back .eyes .left-eyebrows div:nth-child(5) {
 body .back .eyes .left-eyebrows div:nth-child(6) {
     width: 10px;
     height: 17px;
-    top: 128px;
+    top: -5px;
     left: 26px;
     border-top-right-radius: 80%;
     transform: skewX(58deg);
 }
 
 
-body .back .eyes .right-eye div:nth-child(1) {
-    width:20px;
-    height: 20px;
-    background-color: #fff;
-    position: absolute;
-    top: 134px;
-    left: 65px;
+body .back .eyes .right-eye .eye {
     border-top-left-radius: 112%;
     border-bottom-right-radius: 97%;
+    border-top-right-radius:0;
+    border-bottom-left-radius: 0;
     transform: skewX(-7deg);
 }
 
-body .back .eyes .right-eye div:nth-child(2){
+body .back .eyes .right-eye .eye .ball{
     width:5px;
     height: 5px;
     background-color: #000;
-    position: absolute;
-    top: 145px;
-    left: 72px;
     border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 body .back .eyes .right-eyebrows div:nth-child(1) {
     height: 14px;
-    top: 138px;
+    top: 5px;
     left: 55px;
     border-top-left-radius: 40%;
     transform: skewX(-48deg);
@@ -687,21 +694,21 @@ body .back .eyes .right-eyebrows div:nth-child(1) {
 
 
 body .back .eyes .right-eyebrows div:nth-child(2) {
-    top: 130px;
+    top: -3px;
     left: 53px;
     border-top-left-radius: 50%;
     transform: skewX(-27deg);
 }
 
 body .back .eyes .right-eyebrows div:nth-child(3) {
-    top: 114px;
+    top: -19px;
     left: 76px;
     border-top-left-radius: 100%;
     transform: skewX(-51deg);
 }
 
 body .back .eyes .right-eyebrows div:nth-child(4) {
-    top: 109px;
+    top: -24px;
     left: 78px;
     border-top-left-radius: 148%;
     transform: skewX(-36deg);
@@ -710,7 +717,7 @@ body .back .eyes .right-eyebrows div:nth-child(4) {
 body .back .eyes .right-eyebrows div:nth-child(5) {
     width: 9px;
     height: 32px;
-    top: 106px;
+    top: -27px;
     left: 72px;
     border-top-left-radius: 114%;
     transform: skewX(-35deg);
@@ -719,7 +726,7 @@ body .back .eyes .right-eyebrows div:nth-child(5) {
 body .back .eyes .right-eyebrows div:nth-child(6) {
     width: 10px;
     height: 17px;
-    top: 128px;
+    top: -5px;
     left: 67px;
     border-top-left-radius: 80%;
     transform: skewX(-58deg);
